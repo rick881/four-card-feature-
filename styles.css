@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    /* primary */
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    /* neutral */
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: var(--Very-Light-Gray) !important;
+    font-family: Poppins !important;
+    font-size: 15px !important;
+    color: var(--Grayish-Blue) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 100vh !important;  
+}
+
+.heading {
+    max-width: 540px !important;
+    margin: 0 auto !important;
+}
+.title {
+    font-weight: 300 !important;
+    color: var(--Very-Dark-Blue) !important;
+}
+.sub {
+    color: var(--Very-Dark-Blue) !important;
+    font-weight: 600 !important;
+}
+.description {
+    font-size: 16px !important;
+}
+.lead {
+    color: var(--Very-Dark-Blue) !important;
+    font-weight: 600 !important;
+}
+.details {
+    font-size: 14px !important;
+}
+
+
+.items { 
+    display: flex !important;
+    justify-content: center !important;
+} 
+.row {
+    gap: 2rem !important;
+    align-items: center !important;
+}
+
+.col2 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+}
+
+.features {
+    max-width: 330px !important;
+    max-height: 500px !important;
+    border-top-style: solid !important;
+    border-top-width: 5px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    transition: 1.5s ease-in-out !important;
+}
+.features:hover {
+    transform: scale(1.1) !important;
+}
+.icon {
+    display: flex !important;
+    align-self: flex-end !important;
+}
+
+.supervisor {
+    border-top-color: var(--Cyan) !important;
+}
+.team-builder {
+    border-top-color: var(--Red) !important; 
+}
+.karma {
+    border-top-color: var(--Orange) !important;
+}
+.calculator {
+    border-top-color: var(--Blue) !important;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column !important;
+    }
+    .features:hover {
+        transform: scale(1) !important;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 999px) {
+    .row {
+        flex-direction: column !important;
+    }
+    .features {
+        max-width: 100% !important;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1150px) {
+    .features {
+        max-width: 310px !important;
+    }
+    .row {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 1.5rem !important;
+    }
+    .col2 {
+        gap: 1.5rem !important;
+    }
+}
