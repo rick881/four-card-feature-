@@ -34,7 +34,9 @@ Users should be able to:
 ![desktop view](https://user-images.githubusercontent.com/112169932/191269033-a2f8eb99-e78b-4f54-95d0-03d2d9f6eb46.PNG)
 
 - Tablet View
+
 ![tablet view](https://user-images.githubusercontent.com/112169932/191269039-e8c7998e-0ded-4164-ae21-c592a6212a6c.PNG)
+
 
 - Mobile view
 
