@@ -37,7 +37,9 @@ Users should be able to:
 ![tablet view](https://user-images.githubusercontent.com/112169932/191269039-e8c7998e-0ded-4164-ae21-c592a6212a6c.PNG)
 
 - Mobile view
+
 ![mobile-view 1](https://user-images.githubusercontent.com/112169932/191269048-b9ac4338-e4b1-478e-a10e-eaa9e8bcc32b.PNG)
+
 ![mobile-view 2](https://user-images.githubusercontent.com/112169932/191269055-8dba6fa6-97e6-498c-a1d6-9ead60476209.PNG)
 
 ### Links
